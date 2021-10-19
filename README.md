@@ -30,24 +30,25 @@
 Centos 安裝腳本 面板端口：8888
 ```shell
 yum install -y wget && wget -O install.sh https://download.fenhao.me/install/install_6.0.sh && sh install.sh
-# 試驗性 Centos/Ubuntu/Debian 安裝命令 獨立運行環境（py3.7） 可能存在少量兼容性問題 不斷優化中
 ```
+
+試驗性 Centos/Ubuntu/Debian 安裝命令 獨立運行環境（py3.7） 可能存在少量兼容性問題 不斷優化中
 ```shell
 curl -sSO https://download.fenhao.me/install/install_panel.sh && bash install_panel.sh
-# Ubuntu/Deepin 安裝腳本
 ```
+Ubuntu/Deepin 安裝腳本
 ```shell
 wget -O install.sh https://download.fenhao.me/install/install-ubuntu_6.0.sh && sudo bash install.sh
-# Debian 安裝腳本
 ```
+Debian 安裝腳本
 ```shell
 wget -O install.sh https://download.fenhao.me/install/install-ubuntu_6.0.sh && bash install.sh
-# Fedora 安裝腳本
 ```
+Fedora 安裝腳本
 ```shell
 wget -O install.sh https://download.fenhao.me/install/install_6.0.sh && bash install.sh
-# Linux 面板 7.5.1 升級命令（已安裝面板或舊版本或免費版升級專業版）
 ```
+Linux 面板 7.5.1 升級命令（已安裝面板或舊版本或免費版升級專業版）
 ```shell
 curl https://download.fenhao.me/install/update6.sh|bash
 ```
