@@ -5,6 +5,8 @@
 # README #
 
 ### UI预览 ###
+[![5014eK.png](https://z3.ax1x.com/2021/10/19/5014eK.png)](https://imgtu.com/i/5014eK)
+[![501fL6.png](https://z3.ax1x.com/2021/10/19/501fL6.png)](https://imgtu.com/i/501fL6)
 [![50MtR1.png](https://z3.ax1x.com/2021/10/19/50MtR1.png)](https://imgtu.com/i/50MtR1)
 
 ### 宝塔纯净版介绍 ###
