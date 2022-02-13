@@ -22,38 +22,56 @@
 ***
 
 ### 脚本1 ###
-* 来源:https://www.roamacg.com/1193.html
-
-宝塔7.5.1专业版
-
-* 安装要求
-内存：512M以上，推荐768M以上（纯面板约占系统60M内存） 硬盘：100M以上可用硬盘空间（纯面板约占20M磁盘空间） 系统：CentOS 7.1+ (Ubuntu16.04+.、Debian9.0+)，确保是干净的操作系统，没有安装过其它环境带的Apache/Nginx/php/MySQL（已有环境不可安装） ### NEW端口：8888
-
-安装脚本
-Centos 安裝腳本 面板端口：8888
-```shell
-yum install -y wget && wget -O install.sh https://download.fenhao.me/install/install_6.0.sh && sh install.sh
+* 来源:https://www.roamacg.com/1271.html
+专业版：
+Centos安装命令：
 ```
-
-試驗性 Centos/Ubuntu/Debian 安裝命令 獨立運行環境（py3.7） 可能存在少量兼容性問題 不斷優化中
-```shell
-curl -sSO https://download.fenhao.me/install/install_panel.sh && bash install_panel.sh
+yum install -y wget && wget -O install.sh http://download.moetas.com/install/install_6.0.sh && sh install.sh
 ```
-Ubuntu/Deepin 安裝腳本
-```shell
-wget -O install.sh https://download.fenhao.me/install/install-ubuntu_6.0.sh && sudo bash install.sh
+试验性Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7） 可能存在少量兼容性问题 不断优化中
 ```
-Debian 安裝腳本
-```shell
-wget -O install.sh https://download.fenhao.me/install/install-ubuntu_6.0.sh && bash install.sh
+curl -sSO http://download.moetas.com/install/install_panel.sh && bash install_panel.sh
 ```
-Fedora 安裝腳本
-```shell
-wget -O install.sh https://download.fenhao.me/install/install_6.0.sh && bash install.sh
+Ubuntu Deepin安装命令：
 ```
-Linux 面板 7.5.1 升級命令（已安裝面板或舊版本或免費版升級專業版）
-```shell
-curl https://download.fenhao.me/install/update6.sh|bash
+wget -O install.sh http://download.moetas.com/install/install-ubuntu_6.0.sh && sudo bash install.sh
+```
+Debian安装命令：
+```
+wget -O install.sh http://download.moetas.com/install/install-ubuntu_6.0.sh && bash install.sh
+```
+Fedora安装命令:
+```
+wget -O install.sh http://download.moetas.com/install/install_6.0.sh && bash install.sh
+```
+Linux面板7.7.0升级专业版命令：
+```
+curl http://download.moetas.com/install/update6.sh|bash
+```
+企业版：
+Centos安装命令：
+```
+yum install -y wget && wget -O install.sh http://download.moetas.com/ltd/install/install_6.0.sh && sh install.sh
+```
+试验性Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7） 可能存在少量兼容性问题 不断优化中
+```
+curl -sSO http://download.moetas.com/ltd/install/install_panel.sh && bash install_panel.sh
+```
+Ubuntu Deepin安装命令：
+```
+wget -O install.sh http://download.moetas.com/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
+```
+Debian安装命令：
+```
+wget -O install.sh http://download.moetas.com/ltd/install/install-ubuntu_6.0.sh && bash install.sh
+```
+Fedora安装命令:
+```
+wget -O install.sh http://download.moetas.com/ltd/install/install_6.0.sh && bash install.sh
+```
+Linux面板7.7.0升级企业版命令：
+```
+curl http://download.moetas.com/ltd/install/update6.sh|bash
 ```
 ### 脚本来源2 ###
 * 来源：https://www.hostcli.com/
