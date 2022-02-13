@@ -23,7 +23,9 @@
 
 ### 脚本1 ###
 * 来源:https://www.roamacg.com/1271.html
+
 专业版：
+
 Centos安装命令：
 ```
 yum install -y wget && wget -O install.sh http://download.moetas.com/install/install_6.0.sh && sh install.sh
