@@ -28,53 +28,32 @@
 
 Centos安装命令：
 ```
-yum install -y wget && wget -O install.sh http://download.moetas.com/install/install_6.0.sh && sh install.sh
+yum install -y wget && wget -O install.sh http://io.bt.sy/install/install_6.0.sh && sh install.sh
 ```
 试验性Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7） 可能存在少量兼容性问题 不断优化中
 ```
-curl -sSO http://download.moetas.com/install/install_panel.sh && bash install_panel.sh
+curl -sSO http://io.bt.sy/install/install_panel.sh && bash install_panel.sh
 ```
 Ubuntu Deepin安装命令：
 ```
-wget -O install.sh http://download.moetas.com/install/install-ubuntu_6.0.sh && sudo bash install.sh
+wget -O install.sh http://io.bt.sy/install/install-ubuntu_6.0.sh && sudo bash install.sh
 ```
 Debian安装命令：
 ```
-wget -O install.sh http://download.moetas.com/install/install-ubuntu_6.0.sh && bash install.sh
+wget -O install.sh http://io.bt.sy/install/install-ubuntu_6.0.sh && bash install.sh
 ```
 Fedora安装命令:
 ```
-wget -O install.sh http://download.moetas.com/install/install_6.0.sh && bash install.sh
+wget -O install.sh http://io.bt.sy/install/install_6.0.sh && bash install.sh
 ```
-Linux面板7.7.0升级专业版命令：
+Linux面板7.9.3升级专业版命令：
 ```
-curl http://download.moetas.com/install/update6.sh|bash
+curl https://io.bt.sy/install/update_panel.sh|bash
+# 二选一
+curl http://io.bt.sy/install/update6.sh|bash
 ```
-企业版：
-Centos安装命令：
-```
-yum install -y wget && wget -O install.sh http://download.moetas.com/ltd/install/install_6.0.sh && sh install.sh
-```
-试验性Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7） 可能存在少量兼容性问题 不断优化中
-```
-curl -sSO http://download.moetas.com/ltd/install/install_panel.sh && bash install_panel.sh
-```
-Ubuntu Deepin安装命令：
-```
-wget -O install.sh http://download.moetas.com/ltd/install/install-ubuntu_6.0.sh && sudo bash install.sh
-```
-Debian安装命令：
-```
-wget -O install.sh http://download.moetas.com/ltd/install/install-ubuntu_6.0.sh && bash install.sh
-```
-Fedora安装命令:
-```
-wget -O install.sh http://download.moetas.com/ltd/install/install_6.0.sh && bash install.sh
-```
-Linux面板7.7.0升级企业版命令：
-```
-curl http://download.moetas.com/ltd/install/update6.sh|bash
-```
+
+
 ### 脚本来源2 ###
 * 来源：https://www.hostcli.com/
 宝塔 7.6.0版本 [推荐/稳定版本]
