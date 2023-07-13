@@ -22,36 +22,25 @@
 ***
 
 ### 脚本1 ###
-* 来源:https://www.roamacg.com/1271.html
+* 来源:[https://www.roamacg.com/1271.html](http://www.btkaixin.net/)
 
-专业版：
+Linux面板7.9.10安装脚本 专业版：
 
 Centos安装命令：
 ```
-yum install -y wget && wget -O install.sh http://io.bt.sy/install/install_6.0.sh && sh install.sh
+yum install -y wget && wget -O install.sh http://www.btkaixin.net/install/install_6.0.sh && sh install.sh
 ```
-试验性Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7） 可能存在少量兼容性问题 不断优化中
+
+Ubuntu/Debian安装命令：
 ```
-curl -sSO http://io.bt.sy/install/install_panel.sh && bash install_panel.sh
+wget -O install.sh http://www.btkaixin.net/install/install_6.0.sh && bash install.sh
 ```
-Ubuntu Deepin安装命令：
+
+一键更新脚本：
 ```
-wget -O install.sh http://io.bt.sy/install/install-ubuntu_6.0.sh && sudo bash install.sh
+curl http://www.btkaixin.net/install/update6.sh|bash
 ```
-Debian安装命令：
-```
-wget -O install.sh http://io.bt.sy/install/install-ubuntu_6.0.sh && bash install.sh
-```
-Fedora安装命令:
-```
-wget -O install.sh http://io.bt.sy/install/install_6.0.sh && bash install.sh
-```
-Linux面板7.9.3升级专业版命令：
-```
-curl https://io.bt.sy/install/update_panel.sh|bash
-# 二选一
-curl http://io.bt.sy/install/update6.sh|bash
-```
+
 
 
 ### 脚本来源2 ###
