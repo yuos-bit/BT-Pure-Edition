@@ -29,24 +29,14 @@
 
 * 来源:[https://www.roamacg.com/1271.html](http://www.btkaixin.net/)
 
-Linux面板7.9.10安装脚本 专业版：
+Linux 宝塔面板11.5.0安装脚本：
 
-Centos安装命令：
-
+```shell
+if [ -f /usr/bin/curl ];then curl -sSO https://bt11.bthappy.com/install/install_panel.sh;else wget -O install_panel.sh https://bt11.bthappy.com/install/install_panel.sh;fi;bash install_panel.sh bt11.bthappy.com
 ```
-yum install -y wget && wget -O install.sh http://www.btkaixin.net/install/install_6.0.sh && sh install.sh
-```
-
-Ubuntu/Debian安装命令：
-
-```
-wget -O install.sh http://www.btkaixin.net/install/install_6.0.sh && bash install.sh
-```
-
-一键更新脚本：
-
-```
-curl http://www.btkaixin.net/install/update6.sh|bash
+宝塔云安全监控2.3.2安装脚本:
+```shell
+if [ -f /usr/bin/curl ];then curl -sSO https://bt11.bthappy.com/install/install_btmonitor.sh;else wget -O install_btmonitor.sh https://bt11.bthappy.com/install/install_btmonitor.sh;fi;bash install_btmonitor.sh bt11.bthappy.com
 ```
 
 ### 脚本2
